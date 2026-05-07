@@ -1,595 +1,153 @@
-From: <Saved by Blink>
-Snapshot-Content-Location: file:///home/chronos/u-7d1b6377bdacea64ba1052be540d6c1a042f04eb/MyFiles/Downloads/index%20(1).html
-Subject: =?utf-8?Q?Guer=20Garang=20Chol=20Koor=20=E2=80=94=20Portfolio?=
-Date: Thu, 7 May 2026 23:47:30 +0300
-MIME-Version: 1.0
-Content-Type: multipart/related;
-	type="text/html";
-	boundary="----MultipartBoundary--xban0J65juRqMzNuBlAVwGsx8I8gS5stgvVS5KHACb----"
-
-
-------MultipartBoundary--xban0J65juRqMzNuBlAVwGsx8I8gS5stgvVS5KHACb----
-Content-Type: text/html
-Content-ID: <frame-7EBCAF306F09F431133025CA64EF3428@mhtml.blink>
-Content-Transfer-Encoding: quoted-printable
-Content-Location: file:///home/chronos/u-7d1b6377bdacea64ba1052be540d6c1a042f04eb/MyFiles/Downloads/index%20(1).html
-
-<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
-ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
-css" href=3D"cid:css-f1744242-c1a8-42dc-a5ce-93a3733b3727@mhtml.blink" />
- =20
-  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
-1.0">
-  <title>Guer Garang Chol Koor =E2=80=94 Portfolio</title>
-  <link href=3D"https://fonts.googleapis.com/css2?family=3DDM+Serif+Display=
-:ital@0;1&amp;family=3DDM+Sans:wght@300;400;500&amp;display=3Dswap" rel=3D"=
-stylesheet">
- =20
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guer Garang Chol Koor — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #f7f5f0; --ink: #1a1814; --muted: #7a7468;
+      --accent: #c8602a; --line: #e0dcd4; --card: #ffffff;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); font-size: 16px; line-height: 1.6; }
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 1.2rem 4rem; background: rgba(247,245,240,0.95); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+    .nav-logo { font-family: 'DM Serif Display', serif; font-size: 1.1rem; color: var(--ink); text-decoration: none; }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.875rem; font-weight: 500; letter-spacing: 0.03em; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--accent); }
+    .hero { min-height: 100vh; display: flex; align-items: center; padding: 8rem 4rem 4rem; max-width: 1100px; margin: 0 auto; position: relative; }
+    .hero-content { max-width: 700px; }
+    .hero-eyebrow { font-size: 0.8rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); font-weight: 500; margin-bottom: 1.5rem; opacity: 0; animation: fadeUp 0.6s 0.2s forwards; }
+    .hero h1 { font-family: 'DM Serif Display', serif; font-size: clamp(3rem, 6vw, 5rem); line-height: 1.1; margin-bottom: 1.5rem; opacity: 0; animation: fadeUp 0.6s 0.4s forwards; }
+    .hero h1 em { font-style: italic; color: var(--accent); }
+    .hero-bio { font-size: 1.05rem; color: var(--muted); max-width: 520px; line-height: 1.75; margin-bottom: 2.5rem; opacity: 0; animation: fadeUp 0.6s 0.6s forwards; }
+    .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; opacity: 0; animation: fadeUp 0.6s 0.8s forwards; }
+    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.75rem; font-size: 0.875rem; font-weight: 500; font-family: 'DM Sans', sans-serif; border-radius: 2px; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; }
+    .btn-primary { background: var(--ink); color: var(--bg); }
+    .btn-primary:hover { background: var(--accent); }
+    .btn-outline { border: 1px solid var(--ink); color: var(--ink); background: transparent; }
+    .btn-outline:hover { background: var(--ink); color: var(--bg); }
+    .hero-deco { position: absolute; right: 4rem; top: 50%; transform: translateY(-50%); width: 220px; height: 220px; border-radius: 50%; border: 1px solid var(--line); opacity: 0; animation: fadeIn 1s 1s forwards; display: flex; align-items: center; justify-content: center; }
+    .hero-deco-inner { width: 170px; height: 170px; border-radius: 50%; border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; font-family: 'DM Serif Display', serif; font-size: 1.2rem; color: var(--muted); line-height: 1.4; text-align: center; }
+    section { padding: 6rem 4rem; max-width: 1100px; margin: 0 auto; }
+    .section-label { font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); font-weight: 500; margin-bottom: 0.75rem; }
+    .section-title { font-family: 'DM Serif Display', serif; font-size: clamp(2rem, 4vw, 2.8rem); margin-bottom: 3rem; line-height: 1.2; }
+    .divider { border: none; border-top: 1px solid var(--line); margin: 0 4rem; }
+    .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.5rem; }
+    .skill-card { background: var(--card); border: 1px solid var(--line); padding: 1.75rem; border-radius: 2px; transition: border-color 0.2s, transform 0.2s; }
+    .skill-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .skill-card h3 { font-family: 'DM Serif Display', serif; font-size: 1.1rem; margin-bottom: 0.75rem; color: var(--ink); }
+    .skill-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag { font-size: 0.75rem; padding: 0.25rem 0.65rem; background: var(--bg); border: 1px solid var(--line); border-radius: 2px; color: var(--muted); font-weight: 500; }
+    .projects-list { display: flex; flex-direction: column; gap: 1.5rem; }
+    .project-card { background: var(--card); border: 1px solid var(--line); border-radius: 2px; padding: 2rem 2.25rem; display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; transition: border-color 0.2s; }
+    .project-card:hover { border-color: var(--accent); }
+    .project-num { font-family: 'DM Serif Display', serif; font-size: 2.5rem; color: var(--line); line-height: 1; flex-shrink: 0; width: 3rem; }
+    .project-body { flex: 1; }
+    .project-body h3 { font-family: 'DM Serif Display', serif; font-size: 1.3rem; margin-bottom: 0.5rem; }
+    .project-body p { color: var(--muted); font-size: 0.95rem; margin-bottom: 1rem; line-height: 1.7; }
+    .project-tools { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .cert-icon { font-size: 2rem; flex-shrink: 0; width: 3rem; text-align: center; }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+    .contact-intro { font-size: 1.05rem; color: var(--muted); line-height: 1.8; margin-bottom: 2rem; }
+    .contact-links { display: flex; flex-direction: column; gap: 1rem; }
+    .contact-item { display: flex; align-items: center; gap: 1rem; text-decoration: none; color: var(--ink); padding: 1rem 1.25rem; border: 1px solid var(--line); border-radius: 2px; background: var(--card); transition: border-color 0.2s, transform 0.2s; font-size: 0.9rem; }
+    .contact-item:hover { border-color: var(--accent); transform: translateX(4px); }
+    .ci-icon { font-size: 1.2rem; width: 1.5rem; text-align: center; }
+    .ci-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); display: block; margin-bottom: 0.1rem; }
+    .ci-value { font-weight: 500; }
+    footer { text-align: center; padding: 2rem 4rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.8rem; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    @media (max-width: 768px) { nav { padding: 1rem 1.5rem; } .nav-links { gap: 1rem; } .hero, section { padding: 5rem 1.5rem 3rem; } .divider { margin: 0 1.5rem; } .hero-deco { display: none; } .contact-grid { grid-template-columns: 1fr; } .project-card { flex-direction: column; } }
+  </style>
 </head>
 <body>
-
 <nav>
-  <a href=3D"file:///home/chronos/u-7d1b6377bdacea64ba1052be540d6c1a042f04e=
-b/MyFiles/Downloads/index%20(1).html#" class=3D"nav-logo">G.G.C.K</a>
-  <ul class=3D"nav-links">
-    <li><a href=3D"file:///home/chronos/u-7d1b6377bdacea64ba1052be540d6c1a0=
-42f04eb/MyFiles/Downloads/index%20(1).html#about">About</a></li>
-    <li><a href=3D"file:///home/chronos/u-7d1b6377bdacea64ba1052be540d6c1a0=
-42f04eb/MyFiles/Downloads/index%20(1).html#skills">Skills</a></li>
-    <li><a href=3D"file:///home/chronos/u-7d1b6377bdacea64ba1052be540d6c1a0=
-42f04eb/MyFiles/Downloads/index%20(1).html#projects">Projects</a></li>
-    <li><a href=3D"file:///home/chronos/u-7d1b6377bdacea64ba1052be540d6c1a0=
-42f04eb/MyFiles/Downloads/index%20(1).html#certifications">Certifications</=
-a></li>
-    <li><a href=3D"file:///home/chronos/u-7d1b6377bdacea64ba1052be540d6c1a0=
-42f04eb/MyFiles/Downloads/index%20(1).html#contact">Contact</a></li>
+  <a href="#" class="nav-logo">G.G.C.K</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
-
-<div class=3D"hero" id=3D"about">
-  <div class=3D"hero-content">
-    <p class=3D"hero-eyebrow">Economics =C2=B7 Data =C2=B7 Analytics</p>
-    <h1>Guer Garang<br><em>Chol Koor</em></h1>
-    <p class=3D"hero-bio">
-      Economics &amp; Statistics graduate with hands-on experience in data =
-analysis, visualization, and econometric research. Passionate about turning=
- raw data into clear, actionable insights.
-    </p>
-    <div class=3D"hero-actions">
-      <a href=3D"file:///home/chronos/u-7d1b6377bdacea64ba1052be540d6c1a042=
-f04eb/MyFiles/Downloads/index%20(1).html#projects" class=3D"btn btn-primary=
-">View Projects</a>
-      <a href=3D"file:///home/chronos/u-7d1b6377bdacea64ba1052be540d6c1a042=
-f04eb/MyFiles/Downloads/index%20(1).html#contact" class=3D"btn btn-outline"=
->Get in Touch</a>
+<div class="hero" id="about">
+  <div class="hero-content">
+    <p class="hero-eyebrow">Economics · Data · Analytics</p>
+    <h1>Guer Garang<br/><em>Chol Koor</em></h1>
+    <p class="hero-bio">Economics &amp; Statistics graduate with hands-on experience in data analysis, visualization, and econometric research. Passionate about turning raw data into clear, actionable insights.</p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
     </div>
   </div>
-  <div class=3D"hero-deco">
-    <div class=3D"hero-deco-inner">DATA<br>ANALYST</div>
-  </div>
+  <div class="hero-deco"><div class="hero-deco-inner">DATA<br/>ANALYST</div></div>
 </div>
-
-<hr class=3D"divider">
-
-<section id=3D"skills">
-  <p class=3D"section-label reveal visible">Capabilities</p>
-  <h2 class=3D"section-title reveal visible">Skills &amp; Expertise</h2>
-  <div class=3D"skills-grid">
-    <div class=3D"skill-card reveal visible">
-      <h3>Data &amp; Analysis</h3>
-      <div class=3D"skill-tags">
-        <span class=3D"tag">Statistical Analysis</span>
-        <span class=3D"tag">Econometrics</span>
-        <span class=3D"tag">Quantitative Analysis</span>
-        <span class=3D"tag">Data Management</span>
-        <span class=3D"tag">Research Methodologies</span>
-      </div>
-    </div>
-    <div class=3D"skill-card reveal visible">
-      <h3>Programming &amp; Tools</h3>
-      <div class=3D"skill-tags">
-        <span class=3D"tag">Python</span>
-        <span class=3D"tag">Tableau</span>
-        <span class=3D"tag">Power BI</span>
-        <span class=3D"tag">Excel</span>
-        <span class=3D"tag">Data Visualization</span>
-      </div>
-    </div>
-    <div class=3D"skill-card reveal visible">
-      <h3>Professional</h3>
-      <div class=3D"skill-tags">
-        <span class=3D"tag">Communication</span>
-        <span class=3D"tag">Teamwork</span>
-        <span class=3D"tag">Customer Service</span>
-        <span class=3D"tag">Computer Proficiency</span>
-      </div>
-    </div>
-    <div class=3D"skill-card reveal visible">
-      <h3>Workplace Safety &amp; Health</h3>
-      <div class=3D"skill-tags">
-        <span class=3D"tag">Risk Assessment</span>
-        <span class=3D"tag">Hazard Identification</span>
-        <span class=3D"tag">Safety Compliance</span>
-        <span class=3D"tag">Incident Prevention</span>
-      </div>
+<hr class="divider"/>
+<section id="skills">
+  <p class="section-label reveal">Capabilities</p>
+  <h2 class="section-title reveal">Skills &amp; Expertise</h2>
+  <div class="skills-grid">
+    <div class="skill-card reveal"><h3>Data &amp; Analysis</h3><div class="skill-tags"><span class="tag">Statistical Analysis</span><span class="tag">Econometrics</span><span class="tag">Quantitative Analysis</span><span class="tag">Data Management</span><span class="tag">Research Methodologies</span></div></div>
+    <div class="skill-card reveal"><h3>Programming &amp; Tools</h3><div class="skill-tags"><span class="tag">Python</span><span class="tag">Tableau</span><span class="tag">Power BI</span><span class="tag">Excel</span><span class="tag">Data Visualization</span></div></div>
+    <div class="skill-card reveal"><h3>Professional</h3><div class="skill-tags"><span class="tag">Communication</span><span class="tag">Teamwork</span><span class="tag">Customer Service</span><span class="tag">Computer Proficiency</span></div></div>
+    <div class="skill-card reveal"><h3>Workplace Safety &amp; Health</h3><div class="skill-tags"><span class="tag">Risk Assessment</span><span class="tag">Hazard Identification</span><span class="tag">Safety Compliance</span><span class="tag">Incident Prevention</span></div></div>
+  </div>
+</section>
+<hr class="divider"/>
+<section id="projects">
+  <p class="section-label reveal">Work</p>
+  <h2 class="section-title reveal">Selected Projects</h2>
+  <div class="projects-list">
+    <div class="project-card reveal"><div class="project-num">01</div><div class="project-body"><h3>Bike Sales Analysis — Data Cleaning, Pivot Tables &amp; Dashboard</h3><p>Worked with a 1,000+ row bike buyers dataset to perform end-to-end data analysis in Excel. Cleaned raw data by standardizing categorical fields and engineered a new Age Brackets column using nested IF formulas to segment customers into Adolescent, Middle Age, and Old groups. Built pivot tables to summarize purchasing patterns across income levels, commute distances, regions, and demographics. Delivered a Bike Sales Dashboard visualizing key trends to support business decision-making.</p><div class="project-tools"><span class="tag">Excel</span><span class="tag">Data Cleaning</span><span class="tag">Pivot Tables</span><span class="tag">Dashboard</span><span class="tag">IF Formulas</span><span class="tag">Feature Engineering</span></div></div></div>
+    <div class="project-card reveal"><div class="project-num">02</div><div class="project-body"><h3>Corporate Revenue Data Cleaning — 28 Major US Companies</h3><p>Downloaded and cleaned a real-world corporate revenue dataset featuring 28 major US companies including Amazon, Tesla, Microsoft, and JPMorgan Chase. Standardized inconsistent company names and contact formatting, fixed random capitalization errors, split combined Department &amp; Region fields into separate columns, replaced missing payment values with N/A, resolved #DIV/0! errors in Profit Margin calculations, and removed duplicate rows. Built pivot tables and a companies dashboard to summarize revenue, profit, and regional performance across four departments.</p><div class="project-tools"><span class="tag">Excel</span><span class="tag">Data Cleaning</span><span class="tag">Pivot Tables</span><span class="tag">Dashboard</span><span class="tag">Profit Margin Formulas</span><span class="tag">Data Standardization</span></div></div></div>
+    <div class="project-card reveal"><div class="project-num">03</div><div class="project-body"><h3>Tableau Data Visualization</h3><p>Designed an interactive Tableau workbook with compelling visual narratives to communicate data trends and patterns. Applied best practices in data storytelling and visual analytics.</p><div class="project-tools"><span class="tag">Tableau</span><span class="tag">Data Visualization</span><span class="tag">Storytelling</span></div></div></div>
+    <div class="project-card reveal"><div class="project-num">04</div><div class="project-body"><h3>Impact of Interest Rates on Economic Growth in Kenya (1990–2021)</h3><p>Empirical research study analyzing the relationship between interest rates and GDP growth in Kenya over three decades. Built regression and correlation econometric models, reviewed monetary policy literature, and delivered data-driven policy recommendations.</p><div class="project-tools"><span class="tag">Econometrics</span><span class="tag">Regression Analysis</span><span class="tag">Macroeconomics</span><span class="tag">Policy Research</span></div></div></div>
+    <div class="project-card reveal"><div class="project-num">05</div><div class="project-body"><h3>Data Analyst Internship — Tullow Oil</h3><p>Collected, cleaned, and analyzed operational datasets to support production decisions at Tullow Oil. Developed dashboards and reports using Power BI and Tableau, conducted trend analysis, and supported senior analysts with ad-hoc reporting tasks.</p><div class="project-tools"><span class="tag">Power BI</span><span class="tag">Tableau</span><span class="tag">Trend Analysis</span><span class="tag">Data Quality</span></div></div></div>
+  </div>
+</section>
+<hr class="divider"/>
+<section id="certifications">
+  <p class="section-label reveal">Credentials</p>
+  <h2 class="section-title reveal">Certifications</h2>
+  <div class="projects-list">
+    <div class="project-card reveal"><div class="cert-icon">&#127; </div><div class="project-body"><h3>Data Analytics Job Simulation — Deloitte</h3><p>Completed a practical job simulation covering real-world data analytics and forensic technology tasks, issued by Deloitte via Forage. Awarded February 26th, 2026.</p><div class="project-tools"><span class="tag">Data Analysis</span><span class="tag">Forensic Technology</span><span class="tag">Deloitte</span><span class="tag">Forage</span></div></div></div>
+    <div class="project-card reveal"><div class="cert-icon">&#127; </div><div class="project-body"><h3>Data Analytics with Tableau &amp; Excel — Deloitte</h3><p>Completed a course in data analytics using Tableau and Excel, demonstrating proficiency in data visualization and spreadsheet analysis tools.</p><div class="project-tools"><span class="tag">Tableau</span><span class="tag">Excel</span><span class="tag">Data Visualization</span></div></div></div>
+    <div class="project-card reveal"><div class="cert-icon">&#127; </div><div class="project-body"><h3>Diploma in Workplace Safety and Health — Alison.com</h3><p>Completed a diploma covering risk assessment, hazard identification, safety compliance, and incident prevention strategies. Awarded 2025.</p><div class="project-tools"><span class="tag">Risk Assessment</span><span class="tag">Safety Compliance</span><span class="tag">Hazard Identification</span></div></div></div>
+  </div>
+</section>
+<hr class="divider"/>
+<section id="contact">
+  <p class="section-label reveal">Get in Touch</p>
+  <h2 class="section-title reveal">Contact</h2>
+  <div class="contact-grid">
+    <div class="reveal"><p class="contact-intro">I'm open to data analyst roles, research collaborations, and freelance projects. Feel free to reach out — I'd love to connect.</p><p style="color:var(--muted); font-size:0.9rem;">&#128205; Muthaiga, Nairobi, Kenya</p></div>
+    <div class="contact-links reveal">
+      <a href="mailto:guerkoor@gmail.com" class="contact-item"><span class="ci-icon">&#9993;</span><div><span class="ci-label">Email</span><span class="ci-value">guerkoor@gmail.com</span></div></a>
+      <a href="tel:+254717734529" class="contact-item"><span class="ci-icon">&#128222;</span><div><span class="ci-label">Phone</span><span class="ci-value">+254 717 734 529</span></div></a>
+      <a href="https://www.linkedin.com/in/guer-garang-chol-koor-47936a39a" target="_blank" class="contact-item"><span class="ci-icon">in</span><div><span class="ci-label">LinkedIn</span><span class="ci-value">Guer Garang Chol Koor</span></div></a>
     </div>
   </div>
 </section>
-
-<hr class=3D"divider">
-
-<section id=3D"projects">
-  <p class=3D"section-label reveal visible">Work</p>
-  <h2 class=3D"section-title reveal visible">Selected Projects</h2>
-  <div class=3D"projects-list">
-
-    <div class=3D"project-card reveal visible">
-      <div class=3D"project-num">01</div>
-      <div class=3D"project-body">
-        <h3>Bike Sales Analysis =E2=80=94 Data Cleaning, Pivot Tables &amp;=
- Dashboard</h3>
-        <p>Worked with a 1,000+ row bike buyers dataset to perform end-to-e=
-nd data analysis in Excel. Cleaned raw data by standardizing categorical fi=
-elds and engineered a new Age Brackets column using nested IF formulas to s=
-egment customers into Adolescent, Middle Age, and Old groups. Built pivot t=
-ables to summarize purchasing patterns across income levels, commute distan=
-ces, regions, and demographics. Delivered a Bike Sales Dashboard visualizin=
-g key trends to support business decision-making.</p>
-        <div class=3D"project-tools">
-          <span class=3D"tag">Excel</span>
-          <span class=3D"tag">Data Cleaning</span>
-          <span class=3D"tag">Pivot Tables</span>
-          <span class=3D"tag">Dashboard</span>
-          <span class=3D"tag">IF Formulas</span>
-          <span class=3D"tag">Feature Engineering</span>
-        </div>
-      </div>
-    </div>
-
-    <div class=3D"project-card reveal visible">
-      <div class=3D"project-num">02</div>
-      <div class=3D"project-body">
-        <h3>Corporate Revenue Data Cleaning =E2=80=94 28 Major US Companies=
-</h3>
-        <p>Downloaded and cleaned a real-world corporate revenue dataset fe=
-aturing 28 major US companies including Amazon, Tesla, Microsoft, and JPMor=
-gan Chase. Standardized inconsistent company names and contact formatting, =
-fixed random capitalization errors, split combined Department &amp; Region =
-fields into separate columns, replaced missing payment values with N/A, res=
-olved #DIV/0! errors in Profit Margin calculations, and removed duplicate r=
-ows. Built pivot tables and a companies dashboard to summarize revenue, pro=
-fit, and regional performance across four departments.</p>
-        <div class=3D"project-tools">
-          <span class=3D"tag">Excel</span>
-          <span class=3D"tag">Data Cleaning</span>
-          <span class=3D"tag">Pivot Tables</span>
-          <span class=3D"tag">Dashboard</span>
-          <span class=3D"tag">Profit Margin Formulas</span>
-          <span class=3D"tag">Data Standardization</span>
-        </div>
-      </div>
-    </div>
-
-    <div class=3D"project-card reveal">
-      <div class=3D"project-num">03</div>
-      <div class=3D"project-body">
-        <h3>Tableau Data Visualization</h3>
-        <p>Designed an interactive Tableau workbook with compelling visual =
-narratives to communicate data trends and patterns. Applied best practices =
-in data storytelling and visual analytics.</p>
-        <div class=3D"project-tools">
-          <span class=3D"tag">Tableau</span>
-          <span class=3D"tag">Data Visualization</span>
-          <span class=3D"tag">Storytelling</span>
-        </div>
-      </div>
-    </div>
-
-    <div class=3D"project-card reveal">
-      <div class=3D"project-num">04</div>
-      <div class=3D"project-body">
-        <h3>Impact of Interest Rates on Economic Growth in Kenya (1990=E2=
-=80=932021)</h3>
-        <p>Empirical research study analyzing the relationship between inte=
-rest rates and GDP growth in Kenya over three decades. Built regression and=
- correlation econometric models, reviewed monetary policy literature, and d=
-elivered data-driven policy recommendations.</p>
-        <div class=3D"project-tools">
-          <span class=3D"tag">Econometrics</span>
-          <span class=3D"tag">Regression Analysis</span>
-          <span class=3D"tag">Macroeconomics</span>
-          <span class=3D"tag">Policy Research</span>
-        </div>
-      </div>
-    </div>
-
-    <div class=3D"project-card reveal">
-      <div class=3D"project-num">05</div>
-      <div class=3D"project-body">
-        <h3>Data Analyst Internship =E2=80=94 Tullow Oil</h3>
-        <p>Collected, cleaned, and analyzed operational datasets to support=
- production decisions at Tullow Oil. Developed dashboards and reports using=
- Power BI and Tableau, conducted trend analysis, and supported senior analy=
-sts with ad-hoc reporting tasks.</p>
-        <div class=3D"project-tools">
-          <span class=3D"tag">Power BI</span>
-          <span class=3D"tag">Tableau</span>
-          <span class=3D"tag">Trend Analysis</span>
-          <span class=3D"tag">Data Quality</span>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<hr class=3D"divider">
-
-<section id=3D"certifications">
-  <p class=3D"section-label reveal">Credentials</p>
-  <h2 class=3D"section-title reveal">Certifications</h2>
-  <div class=3D"projects-list">
-
-    <div class=3D"project-card reveal">
-      <div class=3D"cert-icon">=F0=9F=8F=85</div>
-      <div class=3D"project-body">
-        <h3>Data Analytics Job Simulation =E2=80=94 Deloitte</h3>
-        <p>Completed a practical job simulation covering real-world data an=
-alytics and forensic technology tasks, issued by Deloitte via Forage. Award=
-ed February 26th, 2026.</p>
-        <div class=3D"project-tools">
-          <span class=3D"tag">Data Analysis</span>
-          <span class=3D"tag">Forensic Technology</span>
-          <span class=3D"tag">Deloitte</span>
-          <span class=3D"tag">Forage</span>
-        </div>
-      </div>
-    </div>
-
-    <div class=3D"project-card reveal">
-      <div class=3D"cert-icon">=F0=9F=8F=85</div>
-      <div class=3D"project-body">
-        <h3>Data Analytics with Tableau &amp; Excel =E2=80=94 Deloitte</h3>
-        <p>Completed a course in data analytics using Tableau and Excel, de=
-monstrating proficiency in data visualization and spreadsheet analysis tool=
-s.</p>
-        <div class=3D"project-tools">
-          <span class=3D"tag">Tableau</span>
-          <span class=3D"tag">Excel</span>
-          <span class=3D"tag">Data Visualization</span>
-        </div>
-      </div>
-    </div>
-
-    <div class=3D"project-card reveal">
-      <div class=3D"cert-icon">=F0=9F=8F=85</div>
-      <div class=3D"project-body">
-        <h3>Diploma in Workplace Safety and Health =E2=80=94 Alison.com</h3=
->
-        <p>Completed a diploma covering risk assessment, hazard identificat=
-ion, safety compliance, and incident prevention strategies. Awarded 2025.</=
-p>
-        <div class=3D"project-tools">
-          <span class=3D"tag">Risk Assessment</span>
-          <span class=3D"tag">Safety Compliance</span>
-          <span class=3D"tag">Hazard Identification</span>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<hr class=3D"divider">
-
-<section id=3D"contact">
-  <p class=3D"section-label reveal">Get in Touch</p>
-  <h2 class=3D"section-title reveal">Contact</h2>
-  <div class=3D"contact-grid">
-    <div class=3D"reveal">
-      <p class=3D"contact-intro">
-        I'm open to data analyst roles, research collaborations, and freela=
-nce projects. Feel free to reach out =E2=80=94 I'd love to connect.
-      </p>
-      <p style=3D"color:var(--muted); font-size:0.9rem;">=F0=9F=93=8D Mutha=
-iga, Nairobi, Kenya</p>
-    </div>
-    <div class=3D"contact-links reveal">
-      <a href=3D"mailto:guerkoor@gmail.com" class=3D"contact-item">
-        <span class=3D"ci-icon">=E2=9C=89</span>
-        <div>
-          <span class=3D"ci-label">Email</span>
-          <span class=3D"ci-value">guerkoor@gmail.com</span>
-        </div>
-      </a>
-      <a href=3D"tel:+254717734529" class=3D"contact-item">
-        <span class=3D"ci-icon">=F0=9F=93=9E</span>
-        <div>
-          <span class=3D"ci-label">Phone</span>
-          <span class=3D"ci-value">+254 717 734 529</span>
-        </div>
-      </a>
-      <a href=3D"https://www.linkedin.com/in/guer-garang-chol-koor-47936a39=
-a" target=3D"_blank" class=3D"contact-item">
-        <span class=3D"ci-icon">in</span>
-        <div>
-          <span class=3D"ci-label">LinkedIn</span>
-          <span class=3D"ci-value">Guer Garang Chol Koor</span>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <p>2026 Guer Garang Chol Koor =C2=B7 Nairobi, Kenya</p>
-</footer>
-
-
-
-
-</body></html>
-------MultipartBoundary--xban0J65juRqMzNuBlAVwGsx8I8gS5stgvVS5KHACb----
-Content-Type: text/css
-Content-Transfer-Encoding: quoted-printable
-Content-Location: https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap
-
-@charset "utf-8";
-
-@font-face { font-family: "DM Sans"; font-style: normal; font-weight: 300; =
-font-display: swap; src: url("https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2=
-ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2") format("woff2"); unicode-range=
-: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+32=
-9, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0,=
- U+2113, U+2C60-2C7F, U+A720-A7FF; }
-
-@font-face { font-family: "DM Sans"; font-style: normal; font-weight: 300; =
-font-display: swap; src: url("https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2=
-ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2") format("woff2"); unicode-range: U=
-+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+32=
-9, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+F=
-FFD; }
-
-@font-face { font-family: "DM Sans"; font-style: normal; font-weight: 400; =
-font-display: swap; src: url("https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2=
-ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2") format("woff2"); unicode-range=
-: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+32=
-9, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0,=
- U+2113, U+2C60-2C7F, U+A720-A7FF; }
-
-@font-face { font-family: "DM Sans"; font-style: normal; font-weight: 400; =
-font-display: swap; src: url("https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2=
-ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2") format("woff2"); unicode-range: U=
-+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+32=
-9, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+F=
-FFD; }
-
-@font-face { font-family: "DM Sans"; font-style: normal; font-weight: 500; =
-font-display: swap; src: url("https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2=
-ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2") format("woff2"); unicode-range=
-: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+32=
-9, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0,=
- U+2113, U+2C60-2C7F, U+A720-A7FF; }
-
-@font-face { font-family: "DM Sans"; font-style: normal; font-weight: 500; =
-font-display: swap; src: url("https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2=
-ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2") format("woff2"); unicode-range: U=
-+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+32=
-9, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+F=
-FFD; }
-
-@font-face { font-family: "DM Serif Display"; font-style: italic; font-weig=
-ht: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/dmserifd=
-isplay/v17/-nFhOHM81r4j6k0gjAW3mujVU2B2G_VB3vD212k.woff2") format("woff2");=
- unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+30=
-4, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB=
-, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-
-@font-face { font-family: "DM Serif Display"; font-style: italic; font-weig=
-ht: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/dmserifd=
-isplay/v17/-nFhOHM81r4j6k0gjAW3mujVU2B2G_VB0PD2.woff2") format("woff2"); un=
-icode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+30=
-4, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+221=
-5, U+FEFF, U+FFFD; }
-
-@font-face { font-family: "DM Serif Display"; font-style: normal; font-weig=
-ht: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/dmserifd=
-isplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_5x0ujy.woff2") format("woff2"); un=
-icode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, =
-U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U=
-+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-
-@font-face { font-family: "DM Serif Display"; font-style: normal; font-weig=
-ht: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/dmserifd=
-isplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx0g.woff2") format("woff2"); unic=
-ode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,=
- U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,=
- U+FEFF, U+FFFD; }
-------MultipartBoundary--xban0J65juRqMzNuBlAVwGsx8I8gS5stgvVS5KHACb----
-Content-Type: text/css
-Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-f1744242-c1a8-42dc-a5ce-93a3733b3727@mhtml.blink
-
-@charset "utf-8";
-
-*, ::before, ::after { box-sizing: border-box; margin: 0px; padding: 0px; }
-
-:root { --bg: #f7f5f0; --ink: #1a1814; --muted: #7a7468; --accent: #c8602a;=
- --line: #e0dcd4; --card: #ffffff; }
-
-html { scroll-behavior: smooth; }
-
-body { font-family: "DM Sans", sans-serif; background: var(--bg); color: va=
-r(--ink); font-size: 16px; line-height: 1.6; }
-
-nav { position: fixed; top: 0px; left: 0px; right: 0px; z-index: 100; displ=
-ay: flex; justify-content: space-between; align-items: center; padding: 1.2=
-rem 4rem; background: rgba(247, 245, 240, 0.95); backdrop-filter: blur(8px)=
-; border-bottom: 1px solid var(--line); }
-
-.nav-logo { font-family: "DM Serif Display", serif; font-size: 1.1rem; colo=
-r: var(--ink); text-decoration: none; }
-
-.nav-links { display: flex; gap: 2rem; list-style: none; }
-
-.nav-links a { text-decoration: none; color: var(--muted); font-size: 0.875=
-rem; font-weight: 500; letter-spacing: 0.03em; transition: color 0.2s; }
-
-.nav-links a:hover { color: var(--accent); }
-
-.hero { min-height: 100vh; display: flex; align-items: center; padding: 8re=
-m 4rem 4rem; max-width: 1100px; margin: 0px auto; position: relative; }
-
-.hero-content { max-width: 700px; }
-
-.hero-eyebrow { font-size: 0.8rem; letter-spacing: 0.15em; text-transform: =
-uppercase; color: var(--accent); font-weight: 500; margin-bottom: 1.5rem; o=
-pacity: 0; animation: 0.6s ease 0.2s 1 normal forwards running fadeUp; }
-
-.hero h1 { font-family: "DM Serif Display", serif; font-size: clamp(3rem, 6=
-vw, 5rem); line-height: 1.1; margin-bottom: 1.5rem; opacity: 0; animation: =
-0.6s ease 0.4s 1 normal forwards running fadeUp; }
-
-.hero h1 em { font-style: italic; color: var(--accent); }
-
-.hero-bio { font-size: 1.05rem; color: var(--muted); max-width: 520px; line=
--height: 1.75; margin-bottom: 2.5rem; opacity: 0; animation: 0.6s ease 0.6s=
- 1 normal forwards running fadeUp; }
-
-.hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; opacity: 0; anim=
-ation: 0.6s ease 0.8s 1 normal forwards running fadeUp; }
-
-.btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.7=
-5rem 1.75rem; font-size: 0.875rem; font-weight: 500; font-family: "DM Sans"=
-, sans-serif; border-radius: 2px; text-decoration: none; transition: 0.2s; =
-cursor: pointer; border-width: medium; border-style: none; border-color: cu=
-rrentcolor; border-image: initial; }
-
-.btn-primary { background: var(--ink); color: var(--bg); }
-
-.btn-primary:hover { background: var(--accent); }
-
-.btn-outline { border: 1px solid var(--ink); color: var(--ink); background:=
- transparent; }
-
-.btn-outline:hover { background: var(--ink); color: var(--bg); }
-
-.hero-deco { position: absolute; right: 4rem; top: 50%; transform: translat=
-eY(-50%); width: 220px; height: 220px; border-radius: 50%; border: 1px soli=
-d var(--line); opacity: 0; animation: 1s ease 1s 1 normal forwards running =
-fadeIn; display: flex; align-items: center; justify-content: center; }
-
-.hero-deco-inner { width: 170px; height: 170px; border-radius: 50%; border:=
- 1px solid var(--line); display: flex; align-items: center; justify-content=
-: center; font-family: "DM Serif Display", serif; font-size: 1.2rem; color:=
- var(--muted); line-height: 1.4; text-align: center; }
-
-section { padding: 6rem 4rem; max-width: 1100px; margin: 0px auto; }
-
-.section-label { font-size: 0.75rem; letter-spacing: 0.15em; text-transform=
-: uppercase; color: var(--accent); font-weight: 500; margin-bottom: 0.75rem=
-; }
-
-.section-title { font-family: "DM Serif Display", serif; font-size: clamp(2=
-rem, 4vw, 2.8rem); margin-bottom: 3rem; line-height: 1.2; }
-
-.divider { border-right-width: medium; border-bottom-width: medium; border-=
-left-width: medium; border-right-style: none; border-bottom-style: none; bo=
-rder-left-style: none; border-right-color: currentcolor; border-bottom-colo=
-r: currentcolor; border-left-color: currentcolor; border-image: initial; bo=
-rder-top: 1px solid var(--line); margin: 0px 4rem; }
-
-.skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minm=
-ax(260px, 1fr)); gap: 1.5rem; }
-
-.skill-card { background: var(--card); border: 1px solid var(--line); paddi=
-ng: 1.75rem; border-radius: 2px; transition: border-color 0.2s, transform 0=
-.2s; }
-
-.skill-card:hover { border-color: var(--accent); transform: translateY(-2px=
-); }
-
-.skill-card h3 { font-family: "DM Serif Display", serif; font-size: 1.1rem;=
- margin-bottom: 0.75rem; color: var(--ink); }
-
-.skill-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-
-.tag { font-size: 0.75rem; padding: 0.25rem 0.65rem; background: var(--bg);=
- border: 1px solid var(--line); border-radius: 2px; color: var(--muted); fo=
-nt-weight: 500; }
-
-.projects-list { display: flex; flex-direction: column; gap: 1.5rem; }
-
-.project-card { background: var(--card); border: 1px solid var(--line); bor=
-der-radius: 2px; padding: 2rem 2.25rem; display: flex; justify-content: spa=
-ce-between; align-items: flex-start; gap: 2rem; transition: border-color 0.=
-2s; }
-
-.project-card:hover { border-color: var(--accent); }
-
-.project-num { font-family: "DM Serif Display", serif; font-size: 2.5rem; c=
-olor: var(--line); line-height: 1; flex-shrink: 0; width: 3rem; }
-
-.project-body { flex: 1 1 0%; }
-
-.project-body h3 { font-family: "DM Serif Display", serif; font-size: 1.3re=
-m; margin-bottom: 0.5rem; }
-
-.project-body p { color: var(--muted); font-size: 0.95rem; margin-bottom: 1=
-rem; line-height: 1.7; }
-
-.project-tools { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-
-.cert-icon { font-size: 2rem; flex-shrink: 0; width: 3rem; text-align: cent=
-er; }
-
-.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
-
-.contact-intro { font-size: 1.05rem; color: var(--muted); line-height: 1.8;=
- margin-bottom: 2rem; }
-
-.contact-links { display: flex; flex-direction: column; gap: 1rem; }
-
-.contact-item { display: flex; align-items: center; gap: 1rem; text-decorat=
-ion: none; color: var(--ink); padding: 1rem 1.25rem; border: 1px solid var(=
---line); border-radius: 2px; background: var(--card); transition: border-co=
-lor 0.2s, transform 0.2s; font-size: 0.9rem; }
-
-.contact-item:hover { border-color: var(--accent); transform: translateX(4p=
-x); }
-
-.ci-icon { font-size: 1.2rem; width: 1.5rem; text-align: center; }
-
-.ci-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0=
-.1em; color: var(--muted); display: block; margin-bottom: 0.1rem; }
-
-.ci-value { font-weight: 500; }
-
-footer { text-align: center; padding: 2rem 4rem; border-top: 1px solid var(=
---line); color: var(--muted); font-size: 0.8rem; }
-
-@keyframes fadeUp {=20
-  0% { opacity: 0; transform: translateY(20px); }
-  100% { opacity: 1; transform: translateY(0px); }
-}
-
-@keyframes fadeIn {=20
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-.reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s=
-, transform 0.6s; }
-
-.reveal.visible { opacity: 1; transform: translateY(0px); }
-
-@media (max-width: 768px) {
-  nav { padding: 1rem 1.5rem; }
-  .nav-links { gap: 1rem; }
-  .hero, section { padding: 5rem 1.5rem 3rem; }
-  .divider { margin: 0px 1.5rem; }
-  .hero-deco { display: none; }
-  .contact-grid { grid-template-columns: 1fr; }
-  .project-card { flex-direction: column; }
-}
-------MultipartBoundary--xban0J65juRqMzNuBlAVwGsx8I8gS5stgvVS5KHACb------
+<footer><p>2026 Guer Garang Chol Koor · Nairobi, Kenya</p></footer>
+<script>
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(function(entry, i) {
+      if (entry.isIntersecting) {
+        setTimeout(function() { entry.target.classList.add('visible'); }, i * 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  reveals.forEach(function(el) { observer.observe(el); });
+</script>
+</body>
+</html>
